@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:food_delivery_FT/data/data.dart';
+import 'package:food_delivery_FT/widgets/recent_orders.dart';
 
 class HomeScreen extends StatelessWidget {
   @override
@@ -48,7 +49,8 @@ class HomeScreen extends StatelessWidget {
                           width: 0.8, color: Theme.of(context).primaryColor)),
                   hintText: 'Search Food and Restuarants'),
             ),
-          )
+          ),
+          RecentOrders(),
         ],
       ),
     );
