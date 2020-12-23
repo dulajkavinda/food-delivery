@@ -9,7 +9,7 @@ class Main extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Food Delivery UI',
       debugShowCheckedModeBanner: false,
-      home: HomeScreen(),
+      home: SafeArea(child: HomeScreen()),
       theme: ThemeData(
           scaffoldBackgroundColor: Colors.grey[50],
           primaryColor: Colors.deepOrangeAccent),
