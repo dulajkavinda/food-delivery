@@ -5,6 +5,8 @@ import 'package:food_delivery_FT/screens/restuarant_screen.dart';
 import 'package:food_delivery_FT/widgets/rating_stars.dart';
 import 'package:food_delivery_FT/widgets/recent_orders.dart';
 
+import 'cart_screen.dart';
+
 class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -19,7 +21,8 @@ class HomeScreen extends StatelessWidget {
         title: Text("Food Delivery"),
         actions: [
           FlatButton(
-              onPressed: () {},
+              onPressed: () => Navigator.push(
+                  context, MaterialPageRoute(builder: (_) => CartScreen())),
               child: Text(
                 'Cart (${currentUser.cart.length})',
                 style: TextStyle(color: Colors.white, fontSize: 20.0),
