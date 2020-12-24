@@ -1,16 +1,94 @@
-# food_delivery_FT
+# Food Delivery App
 
-A new Flutter project.
+---
 
-## Getting Started
+Food ordering application designed using flutter framework. This application implemented based on real life scenarios and UI elements are inspired from UberEats.
 
-This project is a starting point for a Flutter application.
+## Preview
+<p align="center">
+  <img src="assets/preview/demo.gif" alt="animated" />
+</p>
 
-A few resources to get you started if this is your first Flutter project:
+## Delivery App Features
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+---
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Home Screen
+- Search Restuarants
+- Recent Orders
+- Nearby Restuarants
+- Restuarant Details
+- Cart
+
+## How to Use
+
+---
+
+**Step 1:**
+
+Download or clone this repo by using the link below:
+
+```
+https://github.com/dulajkavinda/food_delivery_FT.git
+```
+
+**Step 2:**
+
+Go to project root and execute the following command in console to get the required dependencies:
+
+```
+flutter pub get 
+```
+
+**Step 3:**
+
+This project uses `inject` library that works with code generation, execute the following command to generate files:
+
+```
+flutter packages pub run build_runner build --delete-conflicting-outputs
+```
+
+or watch command in order to keep the source code synced automatically:
+
+```
+flutter packages pub run build_runner watch
+```
+
+### **Folder Structure**
+
+Here is the core folder structure which flutter provides.
+
+```
+flutter-app/
+|- android
+|- assets
+|- build
+|- ios
+|- lib
+|- test
+```
+
+Here is the folder structure we have been using in this project
+
+```
+lib/
+|- data/
+|- models/
+|- screens/
+|- widgets/
+|- main.dart
+```
+
+## Authors
+
+---
+
+- Dulaj Kavinda
+
+## **Copyright and license**
+
+---
+
+Code and documentation copyright 2020 the authors. Code released under the [MIT License](https://github.com/Ismaestro/flutter-example-app/blob/master/LICENSE).
+
+Enjoy 🤘
